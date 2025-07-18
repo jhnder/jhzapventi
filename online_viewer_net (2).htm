@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Zapotlán - Descarga la App</title>
     <style>
+        * {
+            box-sizing: border-box;
+        }
         body {
             font-family: Arial, sans-serif;
             text-align: center;
@@ -13,6 +16,7 @@
             background-color: #f8f8f8;
         }
         .container {
+            max-width: 100%;
             padding: 20px;
         }
         .header {
@@ -22,30 +26,35 @@
             margin-bottom: 20px;
         }
         .header img {
-            width: 150px;
+            width: 100%;
+            max-width: 200px;
             height: auto;
         }
         h1 {
             font-size: 24px;
             color: #333;
+            margin: 10px 0;
         }
         p {
             font-size: 18px;
             color: #555;
+            margin: 0 0 20px;
         }
         .download-links {
             margin-top: 20px;
+            width: 100%;
         }
         .download-links a {
             display: block;
             margin: 10px auto;
-            padding: 10px 20px;
+            padding: 12px 20px;
             font-size: 18px;
             color: white;
             background-color: #007bff;
             text-decoration: none;
             border-radius: 5px;
-            width: 250px;
+            width: 90%;
+            max-width: 300px;
         }
         .download-links a:hover {
             background-color: #0056b3;
